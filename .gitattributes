@@ -1,2 +1,11 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+
+# Exclude vendor/generated code from GitHub language stats
+S-ADAPT/Drivers/** linguist-vendored
+S-ADAPT/Core/Startup/** linguist-vendored
+S-ADAPT/Core/Src/system_stm32l4xx.c linguist-generated
+S-ADAPT/Core/Src/stm32l4xx_it.c linguist-generated
+S-ADAPT/Core/Src/stm32l4xx_hal_msp.c linguist-generated
+S-ADAPT/Core/Inc/stm32l4xx_hal_conf.h linguist-generated
+S-ADAPT/Core/Inc/stm32l4xx_it.h linguist-generated
